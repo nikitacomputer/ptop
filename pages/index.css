@@ -26,12 +26,13 @@
 }
 
 .header__lang-link {
+  padding: 0;
   color: #FFFFFF;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 18px;
+  line-height: 24px;
   text-align: right;
   margin-left: 18px;
   text-decoration: none;
@@ -71,7 +72,7 @@
 
 .lead__image {
   width: 100%;
-  margin: 0 auto 8px auto;
+  margin: 0 auto 2.5% auto;
 }
 
 .lead__caption {
@@ -151,3 +152,191 @@
 .intro__span-accent {
   font-weight: bold;
 }
+
+.photo-grid {
+  width: auto;
+  margin: 0 5% 20% 5%;
+  padding: 0;
+  display: grid;
+  grid-template-rows: repeat(12, 1fr);
+  grid-gap: 12px;
+}
+
+.photo-grid__item {
+  margin: 0;
+}
+
+.photo-grid__image {
+  width: 100%;
+
+}
+
+.places {
+  width: 100%;
+  margin: 0 auto 20% auto;
+}
+
+.place {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 15% auto;
+}
+
+.place:last-child {
+  margin: 0 auto 20% auto;
+}
+
+.place__cover {
+  width: 100%;
+  margin: 0 auto 10% auto;
+}
+
+.place__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 35px;
+  color: #FFFFFF;
+  margin: 0 5% 10% 5%;
+}
+
+.place__image {
+  width: 100%;
+}
+
+.place__website {
+  display: none;
+}
+
+.place__url-heading {
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  color: #AAAAAA;
+}
+
+.place__link {
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
+
+.place__text {
+  margin: 0 5% 0 5%;
+  width: auto;
+}
+
+.place__paragraph {
+  width: 100%;
+  margin: 0 auto 7.5% auto;
+  padding: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.place__paragraph:last-child {
+  margin: 0;
+}
+
+.cover__link {
+  margin: 0 auto 20% auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('../images/cover-route-66.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-decoration: none;
+}
+
+.cover__title {
+  width: auto;
+  margin: 15.9% 5% 5% 5%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 35px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.cover__text {
+  width: 228px;
+  margin: 0 auto 15.6% auto;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  margin: 0 5% 7.5% 5%;
+}
+
+.footer__items {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+
+}
+
+.footer__item {
+  margin: 0 auto 32px 0;
+}
+
+.footer__item:last-child {
+  margin: 0 auto 15% 0;
+}
+
+.footer__link {
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footer__copyright {
+  margin: 0;
+  padding: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  color: #FFFFFF;
+ }
