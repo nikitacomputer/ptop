@@ -1,5 +1,5 @@
 .cover__text {
-  width: 228px;
+  max-width: 228px;
   margin: 0 auto 15.6% auto;
   font-family: Inter;
   font-style: normal;
