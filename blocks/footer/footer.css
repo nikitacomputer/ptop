@@ -1,0 +1,12 @@
+@import url('__items/footer__items.css');
+@import url('__links/footer__links.css');
+@import url('__item/footer__item.css');
+@import url('__link/footer__link.css');
+@import url('__copyright/footer__copyright.css');
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  margin: 0 5% 7.5% 5%;
+}
