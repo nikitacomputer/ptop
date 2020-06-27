@@ -1,0 +1,93 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts/fonts.css');
+
+.page {
+  background: #2A2C2F;
+}
+
+.page__container {
+  min-width: auto;
+  max-width: 768px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.places {
+  width: 100%;
+  margin: 0 auto 20% auto;
+}
+
+.place {
+  width: auto;
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  margin: 0 auto 15% auto;
+}
+
+.place:last-child {
+  margin: 0 auto;
+}
+
+.place__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 35px;
+  color: #FFFFFF;
+  margin: 0 5% 10% 5%;
+}
+
+.place__image {
+  width: 100%;
+  margin: 0 auto 10% auto;
+}
+
+.place__website {
+  padding: 0pc;
+  display: none;
+  border: 1px solid red;
+}
+
+.place__url-heading {
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  color: #AAAAAA;
+}
+
+.place__link {
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
+
+.place__text {
+  margin: 0 5% 0 5%;
+  width: auto;
+}
+
+.place__paragraph {
+  width: 100%;
+  margin: 0 auto 7.5% auto;
+  padding: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.place__paragraph:last-child {
+  margin: 0;
+}
