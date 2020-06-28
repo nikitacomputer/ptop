@@ -10,6 +10,18 @@
     min-width: 700px;
     max-width: 990px;
   }
+}
 
+@media screen and (min-width: 990px) {
+  .page__container  {
+    min-width: 990px;
+    max-width: 1140px;
+  }
+}
 
+@media screen and (min-width: 1140px) {
+  .page__container  {
+    min-width: 1140px;
+    max-width: 1184px;
+  }
 }
