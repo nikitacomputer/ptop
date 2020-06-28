@@ -11,8 +11,6 @@
   display: grid;
   grid-template-rows: repeat(4, auto);
   margin: 0 auto 15% auto;
-  border: 1px solid red;
-
 }
 
 .place:last-child {
