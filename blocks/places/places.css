@@ -9,3 +9,15 @@
     margin: 0 3.1% 11.4% 3.1%;
   }
 }
+
+@media screen and (min-width: 990px) {
+  .places {
+    margin: 0 4.6% 8.9% 4.6%;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .places {
+    margin: 0 8.4% 7.7% 8.4%;
+  }
+}
