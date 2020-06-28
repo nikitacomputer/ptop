@@ -9,3 +9,11 @@
   line-height: 35px;
   color: #FFFFFF;
 }
+
+@media screen and (min-width: 700px) {
+  .intro__title {
+    margin-bottom: 5.2%;
+    font-size: 54px;
+    line-height: 59px;
+  }
+}

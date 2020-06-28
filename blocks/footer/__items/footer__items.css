@@ -1,6 +1,15 @@
 
 .footer__items {
+  width: 100%;
   display: flex;
   flex-direction: column;
   margin: 0;
+}
+
+@media screen and (min-width: 700px) {
+  .footer__items {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
 }

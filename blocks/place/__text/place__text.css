@@ -1,4 +1,11 @@
 .place__text {
   margin: 0 5% 0 5%;
   width: auto;
+  border: 1px solid red;
+}
+
+@media screen and (min-width: 700px) {
+  .place__text {
+    margin: 0;
+  }
 }

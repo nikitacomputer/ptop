@@ -9,3 +9,9 @@
   line-height: 26px;
   color: #FFFFFF;
 }
+
+@media screen and (min-width: 700px) {
+  .intro__text {
+    margin-bottom: 4.1%;
+  }
+}
