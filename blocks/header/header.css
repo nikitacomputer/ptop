@@ -11,6 +11,18 @@
 
 @media screen and (min-width: 700px) {
   .header {
-    margin: 4.4% 3.1% 6.5% 3.1%;
+    margin: 34px 3.1% 6.5% 3.1%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .header {
+    margin: 34px 4.6% 4.8% 4.6%;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .header {
+    margin: 34px 8.4% 4.8% 8.4%;
   }
 }
