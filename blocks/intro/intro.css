@@ -16,3 +16,16 @@
     margin: 0 3.1% 11.4% 3.1%;
   }
 }
+
+@media screen and (min-width: 990px) {
+  .intro {
+    max-width: 690px;
+    margin: 0 auto 8.9% 4.6%;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .intro {
+    margin: 0 auto 7.7% 8.4%;
+  }
+}
