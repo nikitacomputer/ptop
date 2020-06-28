@@ -1,4 +1,6 @@
 .cover__title {
+  position: relative;
+  z-index: 1;
   width: auto;
   margin: 15.9% 5% 5% 5%;
   font-family: Inter;
@@ -8,4 +10,11 @@
   line-height: 35px;
   text-align: center;
   color: #FFFFFF;
+}
+
+@media screen and (min-width: 700px) {
+  .cover__title {
+    font-size: 72px;
+    line-height: 76px;
+  }
 }
