@@ -4,6 +4,24 @@
 @import url('__title/lead__title.css');
 
 .lead {
-  width: 100%;
+  width: auto;
+  margin: 0 0 20% 0;
 }
 
+@media screen and (min-width: 700px) {
+  .lead {
+    margin-bottom: 11.4%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .lead {
+    margin: 0 4.6% 8.9% 4.6%;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .lead {
+    margin: 0 8.4% 7.7% 8.4%;
+  }
+}
