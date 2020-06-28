@@ -18,3 +18,21 @@
     grid-gap: 16px;
   }
 }
+
+@media screen and (min-width: 990px) {
+  .photo-grid {
+    margin: 0 4.6% 8.9% 4.6%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 14px;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .photo-grid {
+    margin: 0 0 7.7% 0;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 16px;
+  }
+}
