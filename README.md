@@ -2,6 +2,8 @@
 ### Web Project 3
 ##### by Nikita Veloped
 ˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙˙
+### URL to the project:
+https://veloped.github.io/web_project_3/.
 
 
 ### Technologies used:
