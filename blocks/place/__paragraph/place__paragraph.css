@@ -5,7 +5,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
   color: #FFFFFF;
 }
 
@@ -17,7 +17,7 @@
 @media screen and (min-width: 990px) {
   .place__paragraph {
     font-size: 18px;
-    line-height: 30px;
+    line-height: 1.66;
   }
 }
 

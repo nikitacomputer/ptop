@@ -2,7 +2,7 @@
   font-style: normal;
   font-weight: 900;
   font-size: 32px;
-  line-height: 35px;
+  line-height: 1.09;
   color: #FFFFFF;
   margin: 0 5% 10% 5%;
 
@@ -13,14 +13,12 @@
     margin: 0;
     margin-bottom: 48px;
     font-size: 42px;
-    line-height: 46px;
-
   }
 }
 
 @media screen and (min-width: 990px) {
   .place__title {
     font-size: 72px;
-    line-height: 76px;
+    line-height: 1.05;
   }
 }
