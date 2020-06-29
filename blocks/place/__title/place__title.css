@@ -16,3 +16,10 @@
 
   }
 }
+
+@media screen and (min-width: 990px) {
+  .place__title {
+    font-size: 72px;
+    line-height: 76px;
+  }
+}
