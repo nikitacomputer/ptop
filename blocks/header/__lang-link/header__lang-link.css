@@ -8,6 +8,11 @@
   text-align: right;
   margin-left: 18px;
   text-decoration: none;
+  transition-duration: .5s;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
 }
 
 @media screen and (min-width: 700px) {
@@ -16,4 +21,6 @@
     line-height: 28px;
   }
 }
+
+
 

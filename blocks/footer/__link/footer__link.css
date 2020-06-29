@@ -6,6 +6,11 @@
   line-height: 24px;
   color: #FFFFFF;
   text-decoration: none;
+  transition-duration: .5s;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
 }
 
 @media screen and (min-width: 700px) {
