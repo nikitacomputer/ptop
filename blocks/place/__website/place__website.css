@@ -9,5 +9,6 @@
     flex-direction: column;
     justify-content: flex-end;
     margin: 0;
+    margin-bottom: 48px;
   }
 }
